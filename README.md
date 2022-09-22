@@ -70,6 +70,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [Compi-Info.com](https://compu-info.netlify.app/)
-- GitHub [@RSC](https://github.com/RMartinezGonzalez)
+- Website [Compu-Info.com](https://compu-info.netlify.app/)
+- GitHub [@RMartinezGonzalez](https://github.com/RMartinezGonzalez)
 - Twitter [@your-twitter](https://{twitter.com/your-username})
