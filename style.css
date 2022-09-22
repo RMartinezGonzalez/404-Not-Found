@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 70px;
+}
+
+header h1 {
+    color: #333;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3% 0;
+    padding-bottom: 60px;
+}
+
+main img {
+    width: 500px;
+}
+
+main .text-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main .text-container h2 {
+    color: #333;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: -0.035em;
+}
+
+main .text-container p {
+    color: #4f4f4f;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.035em;
+    width: 370px;
+}
+
+main .text-container button {
+    color: #fff;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    background: #333;
+    border: none;
+    padding: 20px 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin-top: 20em;
+}
+
+footer small {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #bdbdbd;
+}
+
+footer small span {
+    font-weight: bold;
+}
+
+@media screen and (max-width:956px){
+    header {
+        height: 60px;
+        margin-left: 25px;
+    }
+        
+    main {
+        flex-direction: column;
+        margin: 0;
+    } 
+
+    main img {
+        width: 350px;
+        padding: 50px 0;
+    }
+
+    main .text-container {
+        width: auto;
+        padding-left: 2em;
+    }
+
+    main .text-container h2 {
+        font-size: 48px;
+    }
+
+    main .text-container p {
+        width: 85%;
+        font-size: 18px;
+    }
+
+    footer {
+        margin-top: 6em;
+    }
+}
