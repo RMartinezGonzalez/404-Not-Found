@@ -70,6 +70,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- Website [your-website.com](https://compu-info.netlify.app/)
+- GitHub [@your-username](https://https://github.com/RMartinezGonzalez)
 - Twitter [@your-twitter](https://{twitter.com/your-username})
